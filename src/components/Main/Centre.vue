@@ -67,13 +67,11 @@
       />
       <input
         type="text"
-        :value="totalCount"
         @change="typeTotalCount($event)"
         placeholder="Общее количество"
       />
       <input
         type="text"
-        :value="currentCount"
         @change="typeCurrentCount($event)"
         placeholder="Фактическое количество"
       />
